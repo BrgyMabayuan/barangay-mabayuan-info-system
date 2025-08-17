@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    padding: 60px 20px;
+    min-height: 100vh;
+    border-bottom: 1px solid #eee;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
