@@ -5,7 +5,7 @@
         <div class="card-grid center">
           <div class="official-card">
             <img src="@/assets/logo.png" alt="Punong Barangay" class="official-img" />
-            <h3 class="official-name">EDWIN M. ESPOS</h3>
+            <h3 class="official-name">EDWIN M. ESPOSO</h3>
             <p class="official-role">Punong Barangay</p>
           </div>
         </div>
