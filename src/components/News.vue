@@ -27,7 +27,7 @@ import sagipImage from '@/assets/sagip.jpg'
 const announcement = {
   title: 'Barangay Assembly This August',
   date: 'August 10, 2025',
-  content: 'Oll residents are invited to attend the Barangay Assembly at 3PM in the covered court.'
+  content: 'Olll residents are invited to attend the Barangay Assembly at 3PM in the covered court.'
 }
 </script>
   
