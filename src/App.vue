@@ -12,7 +12,7 @@
         <a href="#about" @click="closeMenu">About</a>
         <a href="#services" @click="closeMenu">Services</a>
         <a href="#officials" @click="closeMenu">Officials</a>
-        <!-- <a href="#news" @click="closeMenu">News</a> -->
+        <a href="#news" @click="closeMenu">News</a>
         <a href="#contact" @click="closeMenu">Contact</a>
       </div>
     </nav>
@@ -21,7 +21,7 @@
     <AboutSection id="about" />
     <ServicesSection id="services" />
     <OfficialsSection id="officials" />
-    <!-- <NewsSection id="news" /> -->
+    <NewsSection id="news" />
     <ContactSection id="contact" />
   </div>
 </template>
@@ -32,7 +32,7 @@ import HomeSection from './components/Home.vue'
 import AboutSection from './components/About.vue'
 import ServicesSection from './components/Services.vue'
 import OfficialsSection from './components/Officials.vue'
-// import NewsSection from './components/News.vue'
+import NewsSection from './components/News.vue'
 import ContactSection from './components/Contact.vue'
 
 const menuOpen = ref(false)
