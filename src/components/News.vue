@@ -2,22 +2,7 @@
     <section class="news-announcements">
       <h2>Barangay News</h2>
   
-      <div class="sections-container">
-        <!-- News Section -->
-        <div class="news-section">
-          <h3>📢 News</h3>
-          <div class="card-container">
-            <div class="news-card" v-for="(item, index) in newsList" :key="index">
-              <img :src="item.image" alt="News Image" class="news-img" />
-              <div class="news-content">
-                <h4>{{ item.title }}</h4>
-                <p class="date">{{ item.date }}</p>
-                <p>{{ item.content }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-  
+      <div class="sections-container"> 
         <!-- Announcement Section -->
         <div class="announcements-section">
           <h3>📌 Announcement</h3>
@@ -38,37 +23,6 @@ import ligaImage from '@/assets/liga.jpg'
 import helpImage from '@/assets/help.jpg'
 import tulongImage from '@/assets/tulong.jpg'
 import sagipImage from '@/assets/sagip.jpg'
-
-// const newsList = [
-//   {
-//     title: 'Juan Fong League',
-//     date: 'August 23, 2025',
-//     content: '',
-//     image: ligaImage
-//   },
-//   {
-//     title: 'BMERU RESPONDING MEDICAL EMERGENCY (ABDOMINAL PAIN)',
-//     date: 'August 3, 2025 – 8:50PM',
-//     content: 'PATIENT TRANSPORT TO JLGMH',
-//     image: helpImage
-//   },
-//   {
-//     title: 'BMERU RESPONDING MEDICAL EMERGENCY (NAMAMANHID ANG KATAWAN)',
-//     date: 'August 3, 2025 – 5:10PM',
-//     content: 'PATIENT TRANSPORT TO JLGMH @ OTERO AVENUE PUROK 2',
-//     image: tulongImage
-//   },
-//   {
-//     title: 'BMERU RESPONDING MEDICAL EMERGENCY (CODE BLUE)',
-//     date: 'August 2, 2025 – 8:12PM',
-//     content: `Time Of Call: 8:12PM
-// Team Arrive: 8:14PM
-// Team Depart At Scene: 8:20PM
-// Team Arrive At Hospital: 8:30PM
-// #47 UPPER GROTTO LANE – PATIENT TRANSPORT TO JLGMH`,
-//     image: sagipImage
-//   }
-// ]
 
 const announcement = {
   title: 'Barangay Assembly This August',
