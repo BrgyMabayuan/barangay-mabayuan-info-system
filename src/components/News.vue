@@ -4,7 +4,7 @@
   
       <div class="sections-container">
         <!-- News Section -->
-        <!-- <div class="news-section">
+        <div class="news-section">
           <h3>📢 News</h3>
           <div class="card-container">
             <div class="news-card" v-for="(item, index) in newsList" :key="index">
@@ -15,8 +15,8 @@
                 <p>{{ item.content }}</p>
               </div>
             </div>
-          </div> -->
-        <!-- </div> -->
+          </div>
+        </div>
   
         <!-- Announcement Section -->
         <div class="announcements-section">
