@@ -33,10 +33,11 @@ const announcement = {
   
   <style scoped>
   .news-announcements {
-    padding: 2rem;
-    background: #f2f2f2;
-    text-align: center;
-  }
+  padding: 1.5rem 1rem; /* reduce vertical padding */
+  background: #f2f2f2;
+  text-align: center;
+  margin-bottom: 0; /* remove unwanted bottom margin */
+}
   
   .sections-container {
     display: flex;
